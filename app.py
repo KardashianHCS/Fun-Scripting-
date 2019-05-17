@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.htm")
 
+@app.route("/post")
+def post():
+    return "this is where the post will be"
+
 
 @app.route("/signin")
 def signin():
