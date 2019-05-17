@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
 
 {% block body %}
-
-  <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
+<div class="container">
+  <nav class="navbar navbar-expand-md navbar-light bg-primary fixed-top">
   <a class="navbar-brand" href="#">VagueArea</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,15 +17,10 @@
         <a class="nav-link" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Post</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Store</a>
       </li>
     </ul>
     <form action="/signin">
@@ -35,6 +30,7 @@
     </form>
   </div>
 </nav>
+</div>
 
 <h1>The Vague Area is the Bay Area’s pissed-of blog. A blog where Bay Area residents rant and take their frustrations to the board. Talk therapy is a healthy way of stimulating the mind. Let us know what pissed off your day in Bay! </h1>
 {% endblock %}
